@@ -1,0 +1,37 @@
+static const states = [
+  {
+    iconPath: "xxx",
+    alt: "icon1",
+    title: "Affordable Protection Plans",
+    desc: "For as little as $19/mo, we'll pay for repairs after your manufacturer's warranty expires."
+  },
+  {
+    iconPath: "xxxx",
+    alt: "icon2",
+    title: "100% Covered Repairs",
+    desc: "Covered everything from your steering and transmission, down to the fancy tech bla bla bla. Covered everything from your steering and transmission, down to the fancy tech bla bla bla."
+  },
+  {
+    iconPath: "xxxxx",
+    alt: "icon3",
+    title: "Repair Anywhere",
+    desc: "This is the description, bla bla"
+  },
+];
+<div>
+  <for |item| of=states>
+    <div class="list-item">
+      <div class="icon-container">
+        <img src=(item.iconPath) alt=(item.alt) />
+      </div>
+      <div class="list-item-content">
+        <div class="list-item-content-title">
+          ${item.title}
+        </div>
+        <div class="list-item-content-desc">
+          ${item.desc}
+        </div>
+      </div>
+    </div>
+  </for>
+</div>

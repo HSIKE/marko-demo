@@ -1,0 +1,15 @@
+.banner-container {
+    height: 13vw;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+}
+.banner-container img {
+    line-height: 0;
+    /*height: 500px;*/
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    /*object-fit: none;*/
+}

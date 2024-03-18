@@ -1,11 +1,16 @@
 .app-button.app-checkbox {
-  background-color: var(--button-secondary-bg);
-  color: var(--button-secondary-fg);
+  /*background-color: var(--button-secondary-bg);*/
+  background: transparent;
+  /*color: var(--button-secondary-fg);*/
+  color: #dedede;
+  font-size: 14px;
+  padding: 0;
 }
 
 .app-button.app-checkbox.checked {
-  background-color: var(--button-bg);
-  color: var(--button-fg);
+  /*background-color: var(--button-bg);*/
+  background: transparent;
+  /*color: var(--button-fg);*/
 }
 
 .app-checkbox-icon {
